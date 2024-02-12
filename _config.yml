@@ -16,6 +16,7 @@ author: L. Coffin
 navbar-links:
   About Me: "aboutme"
   Resources:
+    - Getting Started: "getstarted"
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
   Author's home: ""
