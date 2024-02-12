@@ -69,11 +69,6 @@ Scroll down to see the steps involved, but here is a 40-second video just as a r
 ### 1. Fork this project
 
 Fork this project by clicking the __*Fork*__ button at the top right corner of this page. Forking means that you now copied this entire project and all the files into your account.
-<div class="gs-section-01" markdown="1";
-  .gs-section-01 {
-  background-color: #F4F6F6;
-  border: 1px solid #EB984E;
-  border-radius: 5px;}>
   
 ### 2. Rename the project to `<yourusername>.github.io`
 
