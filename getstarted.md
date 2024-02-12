@@ -73,12 +73,12 @@ Scroll down to see the steps involved, but here is a 40-second video just as a r
 
     <style>
     .gs-section-01 h3 {
-        color: #EB984E
+        color: #EB984E;
         }
     .gs-section-01 {
         background-color: #F4F6F6;
         border: 1px solid #EB984E;
-        border-radius: 5px
+        border-radius: 5px;
         }
     </style>
         
