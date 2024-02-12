@@ -66,11 +66,10 @@ Scroll down to see the steps involved, but here is a 40-second video just as a r
 
 ![Installation steps](assets/img/install-steps.gif)
 
-    <div class="gs-section-01" class="boxed" markdown="1">
-        <h3>1. Fork this project</h3>
-        <p>Fork this project by clicking the <em><strong>Fork</strong></em> button at the top right corner of this page. Forking means that you now copied this entire project and all the files into your account.</p>
+<div class="gs-section-01" class="boxed" markdown="1">
+    <h3>1. Fork this project</h3>
+    <p>Fork this project by clicking the <em><strong>Fork</strong></em> button at the top right corner of this page. Forking means that you now copied this entire project and all the files into your account.</p>
     </div>
-
 
 ### 2. Rename the project to `<yourusername>.github.io`
 
