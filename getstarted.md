@@ -66,36 +66,12 @@ Scroll down to see the steps involved, but here is a 40-second video just as a r
 
 ![Installation steps](assets/img/install-steps.gif)
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Page Title</title>
-    <style>
-        .gs-section-01 {
-            background-color: #F4F6F6;
-            border: 1px solid #EB984E;
-            border-radius: 5px;
-            padding: 20px; /* Add padding for spacing */
-        }
-        .gs-section-01 h3 {
-            color: #333; /* Dark gray text color */
-        }
-        .gs-section-01 p {
-            color: #666; /* Light gray text color */
-        }
-    </style>
-</head>
-<body>
     <div class="gs-section-01" class="boxed" markdown="1">
         <h3>1. Fork this project</h3>
         <p>Fork this project by clicking the <em><strong>Fork</strong></em> button at the top right corner of this page. Forking means that you now copied this entire project and all the files into your account.</p>
     </div>
-</body>
-</html>
 
-  
+
 ### 2. Rename the project to `<yourusername>.github.io`
 
 Click on __*Settings*__ at the top (the cog icon) and on that page you'll have an option to rename the project (*Repository name*). This will create a website with the **Beautiful Jekyll** template that will be available at `https://<yourusername>.github.io` within a couple minutes (check out the [FAQ](https://beautifuljekyll.com/faq/#custom-domain) if you want to use a different project name). If after a few minutes your website is still not ready, try making any edit to any file, just to force GitHub to re-build your site.
