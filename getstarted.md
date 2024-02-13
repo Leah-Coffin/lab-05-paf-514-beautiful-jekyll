@@ -1,8 +1,6 @@
 ---
-```
 layout: page
 title: Get Started
-```
 ---
 
 Getting started is *literally* as easy as 1-2-3 :smile:
