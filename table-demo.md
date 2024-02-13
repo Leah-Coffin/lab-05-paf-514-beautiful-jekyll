@@ -1,7 +1,8 @@
 ---
 layout: liquid-table
 title: 'amiright?'
-
+---
+<!--{% raw %} -->
 reynolds:
   strengths:
   - good father
@@ -20,7 +21,7 @@ gosling:
   - micky mouse club
   - cries a lot
   - not ryan reynolds
----
+<!-- {%endraw%} -->
 
 ![](assets/img/ryan-v-ryan.jpg)
 
