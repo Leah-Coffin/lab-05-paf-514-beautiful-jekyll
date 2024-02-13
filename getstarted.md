@@ -33,7 +33,8 @@ Note that in the video above only one setting in the `_config.yml` file is edite
 
 </div> 
 
-### 4. Congratulations! You have a website!
+<div class="gs-section-04" markdown="1">
+<h6>4. Congratulations! You have a website!</h6>
 
 After you save your changes to the `_config.yml` file (by clicking on *Commit changes* as the video tutorial shows), your website should be ready in a minute or two at `https://<yourusername>.github.io`. Every time you make a change to any file, your website will get rebuilt and should be updated in about a minute or so. Your website will be initialized with several sample blog posts and a couple other pages.
 
@@ -46,7 +47,7 @@ Note that this was the easy way to *create* your website, but it does come at a 
     font-size: 40px;
   }
   .gs-section-02 h2 {
-      color: tomato;
+      color: teal;
       background-color: oldlace;
       font-size: 36px;
   }
