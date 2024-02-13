@@ -1,6 +1,8 @@
 ---
 layout: liquid-table
 title: 'amiright?'
+---
+
 reynolds:
   strengths:
   - good father
@@ -23,8 +25,7 @@ gosling:
 
 
 
-
-![](img/ryan-v-ryan.jpg)  
+![](assets/img/ryan-v-ryan.jpg)
 
 
 ## Lorem Ipsum
