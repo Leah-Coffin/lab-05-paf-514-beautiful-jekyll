@@ -22,6 +22,8 @@ gosling:
   - not ryan reynolds
 ---
 
+![](assets/img/ryan-v-ryan.jpg)
+
 <h2> Ryan vs Ryan </h2>
 <table id="ryan-v-ryan">
 <thead>
@@ -37,22 +39,10 @@ gosling:
             <h4>  Strengths  </h4>
             <ul>
 
-              ###  LIQUID LOOPS WITH YAML DATA
-              ###  reynolds:
-              ###    strengths:
-              ###    - good father
-              ###    - funny
-              ###    - dated alanis morissette
-
               {% for item in page.reynolds.strengths %}
                  <li>  {{ item }}  </li>
               {% endfor %}
-
-              ###    LIQUID LOOP CREATES HTML CODES:
-              ###    <li> good father </li>
-              ###    <li> funny </li>
-              ###    <li> dated alanis morissette </li>        
-
+      
             </ul>
             <br>
             <h4>  Weaknessess  </h4>
@@ -87,8 +77,4 @@ gosling:
         </table>
 
 
-![](assets/img/ryan-v-ryan.jpg)
 
-
-
-<hr>
