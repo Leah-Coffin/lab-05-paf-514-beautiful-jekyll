@@ -2,26 +2,6 @@
 layout: liquid-table
 title: 'amiright?'
 ---
-<!--{% raw %} -->
-reynolds:
-  strengths:
-  - good father
-  - funny
-  - dated alanis morissette
-  weaknesses: 
-  - singing
-  - green lantern movie
-  - tennis backhand 
-gosling:
-  strengths: 
-  - builds houses
-  - is a real boy
-  - never dated alanis morissette
-  weaknesses: 
-  - micky mouse club
-  - cries a lot
-  - not ryan reynolds
-<!-- {%endraw%} -->
 
 ![](assets/img/ryan-v-ryan.jpg)
 
@@ -39,38 +19,31 @@ gosling:
           <td>
             <h4>  Strengths  </h4>
             <ul>
-
-              {% for item in page.reynolds.strengths %}
-                 <li>  {{ item }}  </li>
-              {% endfor %}
-      
+              <li>good father</li>
+              <li>funny</li>
+              <li>dated Alanis Morissette</li>
             </ul>
             <br>
             <h4>  Weaknessess  </h4>
             <ul>
-
-              {% for item in page.reynolds.weaknesses %}
-                 <li>  {{ item }}  </li>
-              {% endfor %}
-
+               <li>singing</li>
+              <li>Green Lantern movie</li>
+              <li>tennis backhand</li>
             </ul>  
           </td>
           <td>
             <h4>  Strengths  </h4>
             <ul>
-
-              {% for item in page.gosling.strengths %}
-                <li>  {{ item }}  </li>
-              {% endfor %}
-
+              <li>builds houses</li>
+              <li>is a real boy</li>
+              <li>never dated Alanis Morissette</li>
             </ul>
             <br>
             <h4>  Weaknessess  </h4>
             <ul>
-
-              {% for item in page.gosling.weaknesses %}
-                 <li>  {{ item }}  </li>
-              {% endfor %}
+              <li>Mickey Mouse club</li>
+              <li>cries a lot</li>
+              <li>not Ryan Reynolds</li>
 
             </ul>
           </td>
