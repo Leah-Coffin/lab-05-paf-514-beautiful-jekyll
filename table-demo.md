@@ -1,7 +1,6 @@
 ---
 layout: liquid-table
 title: 'amiright?'
----
 
 reynolds:
   strengths:
@@ -23,17 +22,73 @@ gosling:
   - not ryan reynolds
 ---
 
+<h2> Ryan vs Ryan </h2>
+<table id="ryan-v-ryan">
+<thead>
+  <tr>
+    <th> <h3> Ryan Reynolds </h3></th>
+    <th> <h3> Ryan Gosling </h3></th>
+  </tr>
+</thead>
+
+ <tbody>
+        <tr>
+          <td>
+            <h4>  Strengths  </h4>
+            <ul>
+
+              ###  LIQUID LOOPS WITH YAML DATA
+              ###  reynolds:
+              ###    strengths:
+              ###    - good father
+              ###    - funny
+              ###    - dated alanis morissette
+
+              {% for item in page.reynolds.strengths %}
+                 <li>  {{ item }}  </li>
+              {% endfor %}
+
+              ###    LIQUID LOOP CREATES HTML CODES:
+              ###    <li> good father </li>
+              ###    <li> funny </li>
+              ###    <li> dated alanis morissette </li>        
+
+            </ul>
+            <br>
+            <h4>  Weaknessess  </h4>
+            <ul>
+
+              {% for item in page.reynolds.weaknesses %}
+                 <li>  {{ item }}  </li>
+              {% endfor %}
+
+            </ul>  
+          </td>
+          <td>
+            <h4>  Strengths  </h4>
+            <ul>
+
+              {% for item in page.gosling.strengths %}
+                <li>  {{ item }}  </li>
+              {% endfor %}
+
+            </ul>
+            <br>
+            <h4>  Weaknessess  </h4>
+            <ul>
+
+              {% for item in page.gosling.weaknesses %}
+                 <li>  {{ item }}  </li>
+              {% endfor %}
+
+            </ul>
+          </td>
+        </tr> 
+        </table>
 
 
 ![](assets/img/ryan-v-ryan.jpg)
 
 
-## Lorem Ipsum
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-<a href="https://github.com/DS4PS/barebones-jekyll/blob/master/_layouts/liquid-table.html" target = "_blank"> 
-          <button onclick="href=''"> 
-</a>
 
 <hr>
